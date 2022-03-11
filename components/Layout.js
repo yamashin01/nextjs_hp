@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Link from "next/link";
+import Image from "next/image";
 
 export default function Layout({ children, title = "HP by Nextjs"}) {return (
     <div className="flex justify-center items-center flex-col min-h-screen text-gray-600 text-sm font-mono">
@@ -40,7 +41,7 @@ export default function Layout({ children, title = "HP by Nextjs"}) {return (
                 rel="noonpener noreferrer"
             >
                 Powerd by {" "}
-                <img src="/vercel.svg" alt="Vercel Logo" className="h-4 ml-2" />
+                <Image src="/vercel.svg" alt="Vercel Logo" className="h-4 ml-2" />
             </a>
         </footer>
     </div>
