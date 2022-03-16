@@ -13,4 +13,4 @@ export const Post = ( {post} ) => {
         </div>
     );
 }
-export default Post;
+
