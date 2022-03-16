@@ -32,7 +32,8 @@ export default function Post( {post} ) {
                     <span>Back to blog-page</span>
                 </div>
             </Link>
-        </Layout>);
+        </Layout>
+    );
 }
 
 export async function getStaticPaths() {
